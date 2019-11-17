@@ -7,7 +7,7 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите предложение");
-        String sentence =scanner.nextLine();
+        String sentence = scanner.nextLine();
         System.out.println("Предложение: " +  sentence +"\nКоличество слов в предложении " + sentence.split(" ").length
                 +"\nОтсортированное предложение: " + SortStr(sentence) + "\nС заглавными буквами: " + UppercaseFistLetter(sentence));
     }
